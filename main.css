@@ -48,8 +48,18 @@ nav{
     height: 1000px;
     position: absolute;
     top: 50%;
-    left: 0;
+    left: -10%;
     transform: translateY(-50%);
+}
+
+.overlayer{
+    width: 0;
+    height: 0;
+    border: 500px solid #fff;
+    border-right-color:green; ;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 #cicle{
@@ -60,6 +70,7 @@ nav{
     left: 0;
     border-radius: 50%;
     transform: rotate(0deg);
+    transition: 1s;
 }
 
 .features img{
@@ -85,18 +96,21 @@ nav{
     right: 5px;
 }
 .two{
-    top: 250px;
-    left: 400px;
+    top: 100px;
+    left: 350px;
+    transform: rotate(-90deg);
 }
 
 .tree{
-    bottom: 350px;
+    bottom: 400px;
     left: 50px;
+    transform: rotate(180deg);
 }
 
 .four{
-    bottom: 75px;
-    right: 250px;
+    bottom: 20px;
+    right: 300px;
+    transform: rotate(-270deg);
 }
 
 .mobile{
